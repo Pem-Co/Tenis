@@ -1,0 +1,112 @@
+body{
+  margin-top: 250px;
+  background: #97F828;
+}
+h1{
+  font-family: Comic Sans MS;
+  font-weight: bold;
+}
+.boton{
+      text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+			text-align:center;
+			text-decoration: none;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      display:inline-block;
+			color: #FFF;
+			background: #7F8C8D;
+			padding: 7px 20px;
+			white-space: nowrap;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 100px;
+			margin: 10px 5px;
+			-webkit-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			-moz-transition: all 0.2s ease-in-out;
+			-o-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+}
+   
+.azul{
+  background: #3498DB;
+  box-shadow: 0px 5px 0px 0px #2980B9;
+}
+
+.azul:hover{
+  background: #39a0e5;
+}
+
+.azul:active{
+  box-shadow: 0px 2px 0px 0px #2980B9;
+}
+
+.verde{
+  background: #2ECC71;
+  box-shadow: 0px 5px 0px 0px #27AE60;
+}
+
+.verde:hover{
+  background: #32db78;
+}
+
+.verde:active{
+  box-shadow: 0px 2px 0px 0px #27AE60;
+}
+
+.rojo{
+  background: #E74C3C;
+  box-shadow: 0px 5px 0px 0px #C0392B;
+}
+
+.rojo:hover{
+  background: #ff5242;
+}
+
+.rojo:active{
+  box-shadow: 0px 2px 0px 0px #C0392B;
+}
+div, h1, p, a, video, h2{
+    z-index: 2;
+    position: relative;
+}
+.content {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.content__heading {
+  margin-bottom: 24px;
+  color: rgb(39,39,39);
+  font-size: 44px;
+}
+
+.content__teaser {
+  margin-bottom: 24px;
+  color: rgb(89,89,89);
+  font-size: 22px;
+}
+
+.content__cta {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: rgb(255,60,100);
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px rgb(255,60,100);
+}
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
